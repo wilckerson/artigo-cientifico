@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ArtigoCientifico.WebRequest">
+	
+	<StackLayout Padding="30">
+	<Button x:Name="btnWebRequest" Text="Do the web request" Clicked="OnClickBtn" />
+	<Label x:Name="lblElapsedTime" Text="Elapsed time: 0ms" />
+	</StackLayout>
+</ContentPage>
