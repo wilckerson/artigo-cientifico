@@ -13,6 +13,7 @@
 		278276E91CB7E7C200F19E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278276E81CB7E7C200F19E71 /* Assets.xcassets */; };
 		278276EC1CB7E7C200F19E71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278276EA1CB7E7C200F19E71 /* LaunchScreen.storyboard */; };
 		278276F41CB7E8FC00F19E71 /* WebRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278276F31CB7E8FC00F19E71 /* WebRequestViewController.swift */; };
+		278FDB7C1CB8191E00273A0B /* ComputationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278FDB7B1CB8191E00273A0B /* ComputationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		278276EB1CB7E7C200F19E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		278276ED1CB7E7C200F19E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		278276F31CB7E8FC00F19E71 /* WebRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRequestViewController.swift; sourceTree = "<group>"; };
+		278FDB7B1CB8191E00273A0B /* ComputationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				278276EA1CB7E7C200F19E71 /* LaunchScreen.storyboard */,
 				278276ED1CB7E7C200F19E71 /* Info.plist */,
 				278276F31CB7E8FC00F19E71 /* WebRequestViewController.swift */,
+				278FDB7B1CB8191E00273A0B /* ComputationViewController.swift */,
 			);
 			path = ArtigoCientifico;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				278FDB7C1CB8191E00273A0B /* ComputationViewController.swift in Sources */,
 				278276E41CB7E7C200F19E71 /* ViewController.swift in Sources */,
 				278276E21CB7E7C200F19E71 /* AppDelegate.swift in Sources */,
 				278276F41CB7E8FC00F19E71 /* WebRequestViewController.swift in Sources */,
@@ -292,6 +296,7 @@
 				278276F21CB7E7C200F19E71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

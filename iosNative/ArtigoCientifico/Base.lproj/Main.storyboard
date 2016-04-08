@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="psi-a1-Kna">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8Wc-2Q-o8L">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -21,6 +22,64 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--ComputationViewController-->
+        <scene sceneID="dfu-WU-6bd">
+            <objects>
+                <viewController id="8Wc-2Q-o8L" userLabel="ComputationViewController" customClass="ComputationViewController" customModule="ArtigoCientifico" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GMa-il-LQS"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pug-a3-spi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j65-0l-cEu" customClass="ComputationViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWI-kn-Cv1">
+                                <rect key="frame" x="241" y="285" width="118" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="118" id="VXT-Uh-hW4"/>
+                                </constraints>
+                                <state key="normal" title="Compute Pi"/>
+                                <connections>
+                                    <action selector="onClickBtn:" destination="8Wc-2Q-o8L" eventType="touchUpInside" id="8rY-Gw-vXs"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pi Result:" textAlignment="center" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IcG-Z7-8k8">
+                                <rect key="frame" x="100" y="352" width="401" height="206"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="206" id="7MJ-Nq-mc1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elapsed time: 0ms" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzb-kr-zya">
+                                <rect key="frame" x="230" y="323" width="141" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hWI-kn-Cv1" firstAttribute="centerX" secondItem="IcG-Z7-8k8" secondAttribute="centerX" id="6q3-15-39A"/>
+                            <constraint firstItem="hWI-kn-Cv1" firstAttribute="centerX" secondItem="j65-0l-cEu" secondAttribute="centerX" id="KBW-P2-wXn"/>
+                            <constraint firstItem="hWI-kn-Cv1" firstAttribute="centerY" secondItem="j65-0l-cEu" secondAttribute="centerY" id="TE8-vU-dRu"/>
+                            <constraint firstItem="gzb-kr-zya" firstAttribute="top" secondItem="hWI-kn-Cv1" secondAttribute="bottom" constant="8" symbolic="YES" id="bns-Vs-16r"/>
+                            <constraint firstItem="IcG-Z7-8k8" firstAttribute="top" secondItem="gzb-kr-zya" secondAttribute="bottom" constant="8" symbolic="YES" id="pf7-Wb-usa"/>
+                            <constraint firstItem="hWI-kn-Cv1" firstAttribute="centerX" secondItem="gzb-kr-zya" secondAttribute="centerX" id="vLt-6C-v4F"/>
+                            <constraint firstItem="IcG-Z7-8k8" firstAttribute="leading" secondItem="j65-0l-cEu" secondAttribute="leadingMargin" constant="80" id="w2s-PY-IGh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblElapsedTime" destination="gzb-kr-zya" id="WYd-f3-rSA"/>
+                        <outlet property="lblResult" destination="IcG-Z7-8k8" id="aBw-qa-QCb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NJU-3m-0OF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="228" y="-1044"/>
         </scene>
         <!--WebRequestViewController-->
         <scene sceneID="ORx-bz-ULo">
