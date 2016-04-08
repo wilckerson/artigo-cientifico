@@ -30,12 +30,12 @@ class WebRequestViewController: UIViewController {
         let task = NSURLSession.sharedSession().dataTaskWithURL(url!, completionHandler: { (data, response,error) -> Void in
             
             let finishTime = NSDate();
-            let executionTime = finishTime.timeIntervalSinceDate(startTime);
+            let executionTime = finishTime.timeIntervalSinceDate(startTime) * 1000;
             
             NSLog("executionTime = %0.5f", executionTime);
             dispatch_async(dispatch_get_main_queue(), {
                 //perform all UI stuff here
-                self.lblElapsedTime.text = String(format: "ElapsedTime: %0.5f ms", executionTime);
+                self.lblElapsedTime.text = String(format: "ElapsedTime: %.3f ms", executionTime);
             })
             
             

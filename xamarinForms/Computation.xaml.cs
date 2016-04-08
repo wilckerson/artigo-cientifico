@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 using System.Threading.Tasks;
+using System.Text;
 
 namespace ArtigoCientifico
 {
@@ -33,39 +34,41 @@ namespace ArtigoCientifico
 		}
 
 		string CalculatePiSpigotAlgorithm(int digits){
-			string result = "";
-			digits++;
+			
+			StringBuilder pi = new StringBuilder(digits);
+			String[] zero = { "0", "00", "000" };
+			int d = 0, e, b, g, r;
+			int c = (digits / 4 + 1) * 14;
+			int[] a = new int[c];
+			int f = 10000;
 
-			uint[] x = new uint[digits*3+2];
-			uint[] r = new uint[digits*3+2];
-
-			for (int j = 0; j < x.Length; j++)
-				x[j] = 20;
-
-			for (int i = 0; i < digits; i++)
-			{
-				uint carry = 0;
-				for (int j = 0; j < x.Length; j++)
-				{
-					uint num = (uint)(x.Length - j - 1);
-					uint dem = num * 2 + 1;
-
-					x[j] += carry;
-
-					uint q = x[j] / dem;
-					r[j] = x[j] % dem;
-
-					carry = q * num;
-				}
-				if(i<digits-1)
-					result += (x[x.Length-1] / 10).ToString();
-				r[x.Length - 1] = x[x.Length - 1] % 10; ;
-				for (int j = 0; j < x.Length; j++)
-					x[j] = r[j] * 10;
+			for (int i = 0; i < c; i++) {
+				a [i] = 20000000;
 			}
 
-			return result;
+			while ((b = c -= 14) > 0)
+			{
+				d = e = d % f;
+
+				while (--b > 0)
+				{
+					d = d * b + a[b];
+					g = (b << 1) - 1;
+					a[b] = (d % g) * f;
+					d /= g;
+				}
+
+				r = e + d / f;
+
+				if (r < 1000)
+				{
+					pi.Append(zero[r > 99 ? 0 : r > 9 ? 1 : 2]);
+				}
+				pi.Append(r);
+			}
+			return pi.ToString();
 		}
+
 	}
 }
 
