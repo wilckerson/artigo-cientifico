@@ -20,7 +20,8 @@ namespace ArtigoCientifico
 //					}
 //				}
 //			};
-			MainPage = new WebRequest();
+			//MainPage = new WebRequest();
+			MainPage = new Computation();
 		}
 
 		protected override void OnStart ()
