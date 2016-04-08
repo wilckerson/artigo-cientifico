@@ -20,6 +20,37 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func onClickBtn(sender: AnyObject) {
+        
+        
+        lblElapsedTime.text = "Requesting...";
+        let startTime = NSDate();
+        
+        
+        let url = NSURL(string: "https://api.github.com/users/xamarin/repos");
+        
+        let task = NSURLSession.sharedSession().dataTaskWithURL(url!, completionHandler: { (data, response,error) -> Void in
+            
+            let finishTime = NSDate();
+            let executionTime = finishTime.timeIntervalSinceDate(startTime);
+            
+            NSLog("executionTime = %0.5f", executionTime);
+            dispatch_async(dispatch_get_main_queue(), {
+                //perform all UI stuff here
+                self.lblElapsedTime.text = String(format: "ElapsedTime: %0.5f ms", executionTime);
+            })
+            
+            
+            let resultString = NSString(data: data!, encoding: NSUTF8StringEncoding);
+            print(resultString);
+        })
+        
+        task.resume()
+        
+        
+        
+    }
 
+    @IBOutlet weak var lblElapsedTime: UILabel!
 }
 
