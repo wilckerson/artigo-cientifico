@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27948DEA1CB7D56A008F9F6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27948DE91CB7D56A008F9F6A /* AppDelegate.swift */; };
-		27948DEC1CB7D56A008F9F6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27948DEB1CB7D56A008F9F6A /* ViewController.swift */; };
-		27948DEF1CB7D56A008F9F6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27948DED1CB7D56A008F9F6A /* Main.storyboard */; };
-		27948DF11CB7D56A008F9F6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27948DF01CB7D56A008F9F6A /* Assets.xcassets */; };
-		27948DF41CB7D56A008F9F6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27948DF21CB7D56A008F9F6A /* LaunchScreen.storyboard */; };
+		278276E21CB7E7C200F19E71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278276E11CB7E7C200F19E71 /* AppDelegate.swift */; };
+		278276E41CB7E7C200F19E71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278276E31CB7E7C200F19E71 /* ViewController.swift */; };
+		278276E71CB7E7C200F19E71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278276E51CB7E7C200F19E71 /* Main.storyboard */; };
+		278276E91CB7E7C200F19E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278276E81CB7E7C200F19E71 /* Assets.xcassets */; };
+		278276EC1CB7E7C200F19E71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278276EA1CB7E7C200F19E71 /* LaunchScreen.storyboard */; };
+		278276F41CB7E8FC00F19E71 /* WebRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278276F31CB7E8FC00F19E71 /* WebRequestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		27948DE61CB7D567008F9F6A /* WebRequestPerformance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebRequestPerformance.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		27948DE91CB7D56A008F9F6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27948DEB1CB7D56A008F9F6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		27948DEE1CB7D56A008F9F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		27948DF01CB7D56A008F9F6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		27948DF31CB7D56A008F9F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		27948DF51CB7D56A008F9F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		278276DE1CB7E7C200F19E71 /* ArtigoCientifico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtigoCientifico.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		278276E11CB7E7C200F19E71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		278276E31CB7E7C200F19E71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		278276E61CB7E7C200F19E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		278276E81CB7E7C200F19E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		278276EB1CB7E7C200F19E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		278276ED1CB7E7C200F19E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		278276F31CB7E8FC00F19E71 /* WebRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRequestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		27948DE31CB7D567008F9F6A /* Frameworks */ = {
+		278276DB1CB7E7C200F19E71 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		27948DDD1CB7D567008F9F6A = {
+		278276D51CB7E7C200F19E71 = {
 			isa = PBXGroup;
 			children = (
-				27948DE81CB7D56A008F9F6A /* WebRequestPerformance */,
-				27948DE71CB7D567008F9F6A /* Products */,
+				278276E01CB7E7C200F19E71 /* ArtigoCientifico */,
+				278276DF1CB7E7C200F19E71 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		27948DE71CB7D567008F9F6A /* Products */ = {
+		278276DF1CB7E7C200F19E71 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				27948DE61CB7D567008F9F6A /* WebRequestPerformance.app */,
+				278276DE1CB7E7C200F19E71 /* ArtigoCientifico.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		27948DE81CB7D56A008F9F6A /* WebRequestPerformance */ = {
+		278276E01CB7E7C200F19E71 /* ArtigoCientifico */ = {
 			isa = PBXGroup;
 			children = (
-				27948DE91CB7D56A008F9F6A /* AppDelegate.swift */,
-				27948DEB1CB7D56A008F9F6A /* ViewController.swift */,
-				27948DED1CB7D56A008F9F6A /* Main.storyboard */,
-				27948DF01CB7D56A008F9F6A /* Assets.xcassets */,
-				27948DF21CB7D56A008F9F6A /* LaunchScreen.storyboard */,
-				27948DF51CB7D56A008F9F6A /* Info.plist */,
+				278276E11CB7E7C200F19E71 /* AppDelegate.swift */,
+				278276E31CB7E7C200F19E71 /* ViewController.swift */,
+				278276E51CB7E7C200F19E71 /* Main.storyboard */,
+				278276E81CB7E7C200F19E71 /* Assets.xcassets */,
+				278276EA1CB7E7C200F19E71 /* LaunchScreen.storyboard */,
+				278276ED1CB7E7C200F19E71 /* Info.plist */,
+				278276F31CB7E8FC00F19E71 /* WebRequestViewController.swift */,
 			);
-			path = WebRequestPerformance;
+			path = ArtigoCientifico;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		27948DE51CB7D567008F9F6A /* WebRequestPerformance */ = {
+		278276DD1CB7E7C200F19E71 /* ArtigoCientifico */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27948DF81CB7D56A008F9F6A /* Build configuration list for PBXNativeTarget "WebRequestPerformance" */;
+			buildConfigurationList = 278276F01CB7E7C200F19E71 /* Build configuration list for PBXNativeTarget "ArtigoCientifico" */;
 			buildPhases = (
-				27948DE21CB7D567008F9F6A /* Sources */,
-				27948DE31CB7D567008F9F6A /* Frameworks */,
-				27948DE41CB7D567008F9F6A /* Resources */,
+				278276DA1CB7E7C200F19E71 /* Sources */,
+				278276DB1CB7E7C200F19E71 /* Frameworks */,
+				278276DC1CB7E7C200F19E71 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WebRequestPerformance;
-			productName = WebRequestPerformance;
-			productReference = 27948DE61CB7D567008F9F6A /* WebRequestPerformance.app */;
+			name = ArtigoCientifico;
+			productName = ArtigoCientifico;
+			productReference = 278276DE1CB7E7C200F19E71 /* ArtigoCientifico.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		27948DDE1CB7D567008F9F6A /* Project object */ = {
+		278276D61CB7E7C200F19E71 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Wilckerson Ganda";
 				TargetAttributes = {
-					27948DE51CB7D567008F9F6A = {
+					278276DD1CB7E7C200F19E71 = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
-			buildConfigurationList = 27948DE11CB7D567008F9F6A /* Build configuration list for PBXProject "WebRequestPerformance" */;
+			buildConfigurationList = 278276D91CB7E7C200F19E71 /* Build configuration list for PBXProject "ArtigoCientifico" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -107,54 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 27948DDD1CB7D567008F9F6A;
-			productRefGroup = 27948DE71CB7D567008F9F6A /* Products */;
+			mainGroup = 278276D51CB7E7C200F19E71;
+			productRefGroup = 278276DF1CB7E7C200F19E71 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				27948DE51CB7D567008F9F6A /* WebRequestPerformance */,
+				278276DD1CB7E7C200F19E71 /* ArtigoCientifico */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		27948DE41CB7D567008F9F6A /* Resources */ = {
+		278276DC1CB7E7C200F19E71 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27948DF41CB7D56A008F9F6A /* LaunchScreen.storyboard in Resources */,
-				27948DF11CB7D56A008F9F6A /* Assets.xcassets in Resources */,
-				27948DEF1CB7D56A008F9F6A /* Main.storyboard in Resources */,
+				278276EC1CB7E7C200F19E71 /* LaunchScreen.storyboard in Resources */,
+				278276E91CB7E7C200F19E71 /* Assets.xcassets in Resources */,
+				278276E71CB7E7C200F19E71 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		27948DE21CB7D567008F9F6A /* Sources */ = {
+		278276DA1CB7E7C200F19E71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27948DEC1CB7D56A008F9F6A /* ViewController.swift in Sources */,
-				27948DEA1CB7D56A008F9F6A /* AppDelegate.swift in Sources */,
+				278276E41CB7E7C200F19E71 /* ViewController.swift in Sources */,
+				278276E21CB7E7C200F19E71 /* AppDelegate.swift in Sources */,
+				278276F41CB7E8FC00F19E71 /* WebRequestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		27948DED1CB7D56A008F9F6A /* Main.storyboard */ = {
+		278276E51CB7E7C200F19E71 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				27948DEE1CB7D56A008F9F6A /* Base */,
+				278276E61CB7E7C200F19E71 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		27948DF21CB7D56A008F9F6A /* LaunchScreen.storyboard */ = {
+		278276EA1CB7E7C200F19E71 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				27948DF31CB7D56A008F9F6A /* Base */,
+				278276EB1CB7E7C200F19E71 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		27948DF61CB7D56A008F9F6A /* Debug */ = {
+		278276EE1CB7E7C200F19E71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +212,7 @@
 			};
 			name = Debug;
 		};
-		27948DF71CB7D56A008F9F6A /* Release */ = {
+		278276EF1CB7E7C200F19E71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -247,24 +251,24 @@
 			};
 			name = Release;
 		};
-		27948DF91CB7D56A008F9F6A /* Debug */ = {
+		278276F11CB7E7C200F19E71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = WebRequestPerformance/Info.plist;
+				INFOPLIST_FILE = ArtigoCientifico/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wilckerson.WebRequestPerformance;
+				PRODUCT_BUNDLE_IDENTIFIER = wilckerson.ArtigoCientifico;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		27948DFA1CB7D56A008F9F6A /* Release */ = {
+		278276F21CB7E7C200F19E71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = WebRequestPerformance/Info.plist;
+				INFOPLIST_FILE = ArtigoCientifico/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wilckerson.WebRequestPerformance;
+				PRODUCT_BUNDLE_IDENTIFIER = wilckerson.ArtigoCientifico;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -272,24 +276,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		27948DE11CB7D567008F9F6A /* Build configuration list for PBXProject "WebRequestPerformance" */ = {
+		278276D91CB7E7C200F19E71 /* Build configuration list for PBXProject "ArtigoCientifico" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				27948DF61CB7D56A008F9F6A /* Debug */,
-				27948DF71CB7D56A008F9F6A /* Release */,
+				278276EE1CB7E7C200F19E71 /* Debug */,
+				278276EF1CB7E7C200F19E71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		27948DF81CB7D56A008F9F6A /* Build configuration list for PBXNativeTarget "WebRequestPerformance" */ = {
+		278276F01CB7E7C200F19E71 /* Build configuration list for PBXNativeTarget "ArtigoCientifico" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				27948DF91CB7D56A008F9F6A /* Debug */,
-				27948DFA1CB7D56A008F9F6A /* Release */,
+				278276F11CB7E7C200F19E71 /* Debug */,
+				278276F21CB7E7C200F19E71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 27948DDE1CB7D567008F9F6A /* Project object */;
+	rootObject = 278276D61CB7E7C200F19E71 /* Project object */;
 }

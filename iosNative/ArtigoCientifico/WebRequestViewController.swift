@@ -1,6 +1,6 @@
 //
-//  ViewController.swift
-//  WebRequestPerformance
+//  WebRequestViewController.swift
+//  ArtigoCientifico
 //
 //  Created by Wilckerson Ganda on 08/04/16.
 //  Copyright © 2016 Wilckerson Ganda. All rights reserved.
@@ -8,21 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class WebRequestViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    @IBAction func onClickBtn(sender: AnyObject) {
-        
-        
+    
+    @IBAction func onClickBtn(sender: UIButton) {
         lblElapsedTime.text = "Requesting...";
         let startTime = NSDate();
         
@@ -46,11 +44,7 @@ class ViewController: UIViewController {
         })
         
         task.resume()
-        
-        
-        
     }
-
+    
     @IBOutlet weak var lblElapsedTime: UILabel!
 }
-

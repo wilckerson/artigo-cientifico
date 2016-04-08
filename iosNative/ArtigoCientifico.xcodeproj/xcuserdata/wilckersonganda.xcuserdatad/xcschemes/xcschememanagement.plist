@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>WebRequestPerformance.xcscheme</key>
+		<key>ArtigoCientifico.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>27948DE51CB7D567008F9F6A</key>
+		<key>278276DD1CB7E7C200F19E71</key>
 		<dict>
 			<key>primary</key>
 			<true/>

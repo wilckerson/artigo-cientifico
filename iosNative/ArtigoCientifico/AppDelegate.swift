@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  WebRequestPerformance
+//  ArtigoCientifico
 //
 //  Created by Wilckerson Ganda on 08/04/16.
 //  Copyright © 2016 Wilckerson Ganda. All rights reserved.

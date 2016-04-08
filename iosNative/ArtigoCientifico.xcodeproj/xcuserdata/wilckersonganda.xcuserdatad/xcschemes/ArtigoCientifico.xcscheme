@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "27948DE51CB7D567008F9F6A"
-               BuildableName = "WebRequestPerformance.app"
-               BlueprintName = "WebRequestPerformance"
-               ReferencedContainer = "container:WebRequestPerformance.xcodeproj">
+               BlueprintIdentifier = "278276DD1CB7E7C200F19E71"
+               BuildableName = "ArtigoCientifico.app"
+               BlueprintName = "ArtigoCientifico"
+               ReferencedContainer = "container:ArtigoCientifico.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "27948DE51CB7D567008F9F6A"
-            BuildableName = "WebRequestPerformance.app"
-            BlueprintName = "WebRequestPerformance"
-            ReferencedContainer = "container:WebRequestPerformance.xcodeproj">
+            BlueprintIdentifier = "278276DD1CB7E7C200F19E71"
+            BuildableName = "ArtigoCientifico.app"
+            BlueprintName = "ArtigoCientifico"
+            ReferencedContainer = "container:ArtigoCientifico.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "27948DE51CB7D567008F9F6A"
-            BuildableName = "WebRequestPerformance.app"
-            BlueprintName = "WebRequestPerformance"
-            ReferencedContainer = "container:WebRequestPerformance.xcodeproj">
+            BlueprintIdentifier = "278276DD1CB7E7C200F19E71"
+            BuildableName = "ArtigoCientifico.app"
+            BlueprintName = "ArtigoCientifico"
+            ReferencedContainer = "container:ArtigoCientifico.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "27948DE51CB7D567008F9F6A"
-            BuildableName = "WebRequestPerformance.app"
-            BlueprintName = "WebRequestPerformance"
-            ReferencedContainer = "container:WebRequestPerformance.xcodeproj">
+            BlueprintIdentifier = "278276DD1CB7E7C200F19E71"
+            BuildableName = "ArtigoCientifico.app"
+            BlueprintName = "ArtigoCientifico"
+            ReferencedContainer = "container:ArtigoCientifico.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
